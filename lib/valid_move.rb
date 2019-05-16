@@ -1,5 +1,5 @@
 def valid_move?(board, index)
-  if 
+  if board[index]==" " || board[index]=="" || board[index]==nil
     return true
   else 
     return false 
